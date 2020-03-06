@@ -88,10 +88,53 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./components/User.js":
+/*!****************************!*\
+  !*** ./components/User.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "E:\\wamp\\www\\ReactjsProjects\\NextJs-Project\\components\\User.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+
+const user = props => {
+  return __jsx("div", {
+    className: "jsx-1549472565",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: undefined
+  }, "Name: ", props.name, __jsx("br", {
+    className: "jsx-1549472565",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: undefined
+  }), "Age: ", props.age, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "1549472565",
+    __self: undefined
+  }, "div.jsx-1549472565{border :1px solid #eee;box-shadow :0 2px 3px #ccc;padding:20px;text-align :center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkU6XFx3YW1wXFx3d3dcXFJlYWN0anNQcm9qZWN0c1xcTmV4dEpzLVByb2plY3RcXGNvbXBvbmVudHNcXFVzZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBT3dCLEFBRzRDLHVCQUNJLDJCQUNkLGFBQ00sbUJBQ3ZCIiwiZmlsZSI6IkU6XFx3YW1wXFx3d3dcXFJlYWN0anNQcm9qZWN0c1xcTmV4dEpzLVByb2plY3RcXGNvbXBvbmVudHNcXFVzZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXHJcbmNvbnN0IHVzZXIgPSAocHJvcHMpID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPGRpdj5cclxuICAgICAgICAgICAgTmFtZToge3Byb3BzLm5hbWV9XHJcbiAgICAgICAgICAgIDxiciAvPlxyXG4gICAgICAgICAgICBBZ2U6IHtwcm9wcy5hZ2V9XHJcbiAgICAgICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICAgICAgICAgIGRpdiB7XHJcbiAgICAgICAgICAgICAgICAgICAgYm9yZGVyIDogMXB4IHNvbGlkICNlZWU7XHJcbiAgICAgICAgICAgICAgICAgICAgYm94LXNoYWRvdyA6IDAgMnB4IDNweCAjY2NjO1xyXG4gICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IDIwcHg7XHJcbiAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbiA6IGNlbnRlcjtcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgKVxyXG59XHJcbmV4cG9ydCBkZWZhdWx0IHVzZXIiXX0= */\n/*@ sourceURL=E:\\\\wamp\\\\www\\\\ReactjsProjects\\\\NextJs-Project\\\\components\\\\User.js */"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (user);
+
+/***/ }),
 
 /***/ "./pages/auth/index.js":
 /*!*****************************!*\
@@ -104,7 +147,7 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_User__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/User */ "./pages/components/User.js");
+/* harmony import */ var _components_User__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/User */ "./components/User.js");
 var _jsxFileName = "E:\\wamp\\www\\ReactjsProjects\\NextJs-Project\\pages\\auth\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -132,50 +175,7 @@ const authIndexPage = () => {
 
 /***/ }),
 
-/***/ "./pages/components/User.js":
-/*!**********************************!*\
-  !*** ./pages/components/User.js ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "E:\\wamp\\www\\ReactjsProjects\\NextJs-Project\\pages\\components\\User.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
-const user = props => {
-  return __jsx("div", {
-    className: "jsx-1549472565",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: undefined
-  }, "Name: ", props.name, __jsx("br", {
-    className: "jsx-1549472565",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: undefined
-  }), "Age: ", props.age, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1549472565",
-    __self: undefined
-  }, "div.jsx-1549472565{border :1px solid #eee;box-shadow :0 2px 3px #ccc;padding:20px;text-align :center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkU6XFx3YW1wXFx3d3dcXFJlYWN0anNQcm9qZWN0c1xcTmV4dEpzLVByb2plY3RcXHBhZ2VzXFxjb21wb25lbnRzXFxVc2VyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU93QixBQUc0Qyx1QkFDSSwyQkFDZCxhQUNNLG1CQUN2QiIsImZpbGUiOiJFOlxcd2FtcFxcd3d3XFxSZWFjdGpzUHJvamVjdHNcXE5leHRKcy1Qcm9qZWN0XFxwYWdlc1xcY29tcG9uZW50c1xcVXNlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCdcclxuY29uc3QgdXNlciA9IChwcm9wcykgPT4ge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgICBOYW1lOiB7cHJvcHMubmFtZX1cclxuICAgICAgICAgICAgPGJyIC8+XHJcbiAgICAgICAgICAgIEFnZToge3Byb3BzLmFnZX1cclxuICAgICAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICAgICAgICAgZGl2IHtcclxuICAgICAgICAgICAgICAgICAgICBib3JkZXIgOiAxcHggc29saWQgI2VlZTtcclxuICAgICAgICAgICAgICAgICAgICBib3gtc2hhZG93IDogMCAycHggM3B4ICNjY2M7XHJcbiAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogMjBweDtcclxuICAgICAgICAgICAgICAgICAgICB0ZXh0LWFsaWduIDogY2VudGVyO1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICApXHJcbn1cclxuZXhwb3J0IGRlZmF1bHQgdXNlciJdfQ== */\n/*@ sourceURL=E:\\\\wamp\\\\www\\\\ReactjsProjects\\\\NextJs-Project\\\\pages\\\\components\\\\User.js */"));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (user);
-
-/***/ }),
-
-/***/ 3:
+/***/ 5:
 /*!***********************************!*\
   !*** multi ./pages/auth/index.js ***!
   \***********************************/
