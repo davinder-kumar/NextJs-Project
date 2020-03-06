@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport Link from 'next/link';\n\nvar errorPage = function errorPage() {\n  return __jsx(\"div\", null, \"Some error occured! Go back  \", __jsx(Link, {\n    href: \"/\"\n  }, __jsx(\"a\", null, \"Click Here\")));\n};\n\nexport default errorPage;","map":null,"metadata":{},"sourceType":"module"}

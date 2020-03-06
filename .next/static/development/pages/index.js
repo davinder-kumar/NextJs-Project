@@ -9937,7 +9937,7 @@ var IndexPage = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=E%3A%5Cwamp%5Cwww%5CReactjsProjects%5CNextJs-Project%5Cpages%5Cindex.js ***!
   \****************************************************************************************************************************************/
@@ -9960,5 +9960,5 @@ module.exports = dll_0fb095e325d7ebf261c3;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

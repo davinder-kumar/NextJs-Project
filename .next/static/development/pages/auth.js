@@ -1004,7 +1004,7 @@ var authIndexPage = function authIndexPage() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!***************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fauth&absolutePagePath=E%3A%5Cwamp%5Cwww%5CReactjsProjects%5CNextJs-Project%5Cpages%5Cauth%5Cindex.js ***!
   \***************************************************************************************************************************************************/
@@ -1027,5 +1027,5 @@ module.exports = dll_0fb095e325d7ebf261c3;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=auth.js.map
