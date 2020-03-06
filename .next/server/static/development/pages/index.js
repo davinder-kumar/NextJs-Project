@@ -1816,39 +1816,52 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const indexPage = () => {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: undefined
-  }, "Index Page", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/auth",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: undefined
-  }, __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: undefined
-  }, "Auth")), __jsx("button", {
-    onClick: () => {
-      next_router__WEBPACK_IMPORTED_MODULE_2___default.a.push("/auth");
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: undefined
-  }, "Move to Auth"));
-};
+class IndexPage extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  static getInitialProps(context) {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve({
+          appname: "My Super App"
+        });
+      }, 1000);
+    });
+  }
 
-/* harmony default export */ __webpack_exports__["default"] = (indexPage);
+  render() {
+    return __jsx("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: this
+    }, "Index Page ", this.props.appname, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/auth",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    }, __jsx("a", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    }, "Auth")), __jsx("button", {
+      onClick: () => {
+        next_router__WEBPACK_IMPORTED_MODULE_2___default.a.push("/auth");
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, "Move to Auth"));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (IndexPage);
 
 /***/ }),
 
