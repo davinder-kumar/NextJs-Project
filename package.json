@@ -1,0 +1,31 @@
+{
+  "name": "nextjs-project",
+  "version": "1.0.0",
+  "description": "NextJs Porject for Learning",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davinder-kumar/NextJs-Project.git"
+  },
+  "keywords": [
+    "NextJs",
+    "React",
+    "Reactjs"
+  ],
+  "author": "Davinder Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davinder-kumar/NextJs-Project/issues"
+  },
+  "homepage": "https://github.com/davinder-kumar/NextJs-Project#readme",
+  "dependencies": {
+    "next": "^9.2.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
