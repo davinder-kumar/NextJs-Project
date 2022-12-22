@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/davinder-kumar/NextJs-Project#readme",
   "dependencies": {
-    "next": "^9.2.2",
+    "next": "^9.5.5",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   }
